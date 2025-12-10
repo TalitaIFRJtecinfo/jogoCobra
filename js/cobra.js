@@ -3,7 +3,7 @@ const cobra = {
     comprimento:10,
     taxaCrescimento:5,
     velocidade:1,
-    cor: "white",
+    cor: "pink",
     direcao:"direita",
     x:[180],
     y:[330],
@@ -68,4 +68,5 @@ const cobra = {
                 }                      
         return false;                    
     }
+
 }
