@@ -4,7 +4,7 @@ const placar = {
     corFundo:"blue",
     corTexto:"white",
     pontuacao:0,
-    nomeJogo:"Snake Game",
+    nomeJogo:"Jogo da Minhoca",
     desenhar(){
         ctx.fillStyle = this.corFundo;
         ctx.fillRect(0,0,this.largura,this.altura);
@@ -16,3 +16,4 @@ const placar = {
         ctx.fillText(cobra.vida + " vida(s)",this.largura-10,3*this.altura/4);
     }
 }
+
